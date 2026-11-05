@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section{
+    margin: 120px 0;
+}
+
+main{
+    margin: auto;
+    max-width: 1200px;
+}
+
+/* header */
+header{
+    padding: 19px 0;
+    background-color: black;
+    text-align: center;
+}
+
+/* top section */
+#top_section{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.top_section_title_container{
+    text-align: center;
+}
+
+.top_section_title_container > h1{
+    font-weight: 700;
+    font-size: 72px;
+}
+
+.top_section_title_container > p{
+    font-weight: 700;
+    font-size: 24px;
+    color: #ABABAB;
+}
+
+.top_section_images{
+    display: flex;
+    gap: 21px;
+}
