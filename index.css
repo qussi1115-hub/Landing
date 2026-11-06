@@ -47,3 +47,17 @@ header{
 }
 
 /* middle section */
+.middle_section > h1{
+    width: 198;
+    height: 29;
+    color: #ABABAB;
+}
+
+.middle_section > p{
+    width: 358;
+    height: 118;
+    top: 39px;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 48px;
+}
