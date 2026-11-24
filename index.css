@@ -51,13 +51,13 @@ header{
     width: 358px;
     height: 796px;
 }
-.middle_section > h1{
+.middle-section-legacy > h1{
     width: 198;
     height: 29;
     color: #ABABAB;
 }
 
-.middle_section > p{
+.middle-section-legacy > p{
     width: 358;
     height: 118;
     top: 39px;
@@ -66,18 +66,33 @@ header{
     font-size: 48px;
 }
 
-.route{
+.middle_section_days{
+    display: flex;
+    height: 80px;
+    gap: 16px;
+    width: 358px;
+    width: 56;
+    justify-content: space-between;
+
+}
+.d1{
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    gap: 10px;
-    padding: 10px;
     border-radius: 40px;
-    background-color: black;
     color: greenyellow;
+    background-color: black;
     width: 56px;
     height: 56px;  
     font-weight: 700;
     font-size: 17px; 
+    position: relative;
+}
+
+.day-dash-d1{
+    height: 45px;
+    border-left: 1px dashed black;
+    position: absolute;
+    bottom: -45px;
 }
