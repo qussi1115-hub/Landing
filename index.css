@@ -47,6 +47,10 @@ header{
 }
 
 /* middle section */
+.middle_left{ 
+    width: 358px;
+    height: 796px;
+}
 .middle_section > h1{
     width: 198;
     height: 29;
@@ -60,4 +64,20 @@ header{
     font-weight: 700;
     font-style: Bold;
     font-size: 48px;
+}
+
+.route{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 40px;
+    background-color: black;
+    color: greenyellow;
+    width: 56px;
+    height: 56px;  
+    font-weight: 700;
+    font-size: 17px; 
 }
