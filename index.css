@@ -50,11 +50,18 @@ header{
 .middle_left{ 
     width: 358px;
     height: 796px;
+    position: relative      ;
 }
+
 .middle-section-legacy > h1{
     width: 198;
     height: 29;
     color: #ABABAB;
+    font-family: Arial, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    margin-left: 68px;
+    margin-bottom: 8px;
 }
 
 .middle-section-legacy > p{
@@ -64,35 +71,76 @@ header{
     font-weight: 700;
     font-style: Bold;
     font-size: 48px;
+    margin-bottom: 80px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: gray;
+    margin-left: 68px;
+    margin-bottom: 25px;
 }
 
-.middle_section_days{
+.middle_section_days {
     display: flex;
-    height: 80px;
-    gap: 16px;
-    width: 358px;
-    width: 56;
-    justify-content: space-between;
-
+    flex-direction: column;
+    position: relative;
+    gap: 70px;
 }
-.d1{
+
+.day-dash-d1 {
+    position: absolute;
+    left: 28px;
+    top: 28px;
+    bottom: 28px;
+    border-left: 2px dashed #000000;
+    z-index: 0;
+}
+
+.middle_section_days {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 70px;
+}
+
+.day-dash-d1 {
+    position: absolute;
+    left: 28px;
+    top: 28px;
+    bottom: 28px;
+    border-left: 2px dashed black;
+}
+
+.day-info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.D1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
-    border-radius: 40px;
-    color: greenyellow;
-    background-color: black;
     width: 56px;
-    height: 56px;  
-    font-weight: 700;
-    font-size: 17px; 
+    height: 56px;
+    border-radius: 50%;
+    background-color: black;
+    color: greenyellow;
+    flex-shrink: 0;
     position: relative;
+    z-index: 1;
 }
 
-.day-dash-d1{
-    height: 45px;
-    border-left: 1px dashed black;
-    position: absolute;
-    bottom: -45px;
+.text_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+
+.text_info p {
+    margin: 3px 0 0;
+}
+
+.price-head{
+    margin-bottom: 80px;
+}
+ 
